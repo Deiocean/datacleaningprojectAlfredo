@@ -1,0 +1,33 @@
+"activityLabels": Contain the six possible state names for the gyroscope
+
+"dataAct": merged dataSet between dataActivityTrain and dataActivityTest
+
+"dataActivityTest": imported dataset of Activity Test
+
+"dataActivityTrain" imported dataset of Activity Training
+
+"dataFeat": merged dataSet between dataFeaturesTest and dataFeaturesTrain
+
+"dataFeatName": contain the names for the features, imported from the table features.txt
+
+"dataFeaturesTest": imported dataset of Features Test
+
+"dataFeaturesTrain": imported dataset of Features Training
+
+"dataFull": complete dataSet
+
+"dataFullAgg": tidy dataSet based on dataFull
+
+"dataMerged": preliminary table from merging dataSub and dataAct
+
+"dataSub": merged dataSet between dataSubjectTest and dataSubjectTrain
+
+"dataSubjectTest": imported dataset of Subjects Test
+
+"dataSubjectTrain": imported dataset of Subjects Training
+
+"pathFile": path of the working directory
+
+"selectedNames": character vector based on subDataFeatureName used to subsetting dataFull for mean and standard deviation
+
+"subDataFeatureName": contain the names extracted with the function grep() from dataFeatName
